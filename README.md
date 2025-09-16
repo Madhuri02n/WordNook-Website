@@ -1,31 +1,49 @@
-This project is a full-stack social media web application 🌐 that has been developed using the MERN stack 🖥️ and Rest API 🚀, In this social media platform where you can share posts, like/unlike posts, Follow/Unfollow users and more.
+📌 Project: Full-Stack Social Media Web Application
 
-🖥️ Technologies :
-Frontend:
+A full-stack social media platform built with the MERN stack (MongoDB, Express.js, React.js, Node.js) and REST APIs.
+Users can share posts, like/unlike, follow/unfollow, update profiles, and more.
 
-React Js
-Material-Ui
+🖥️ Tech Stack
+
+Frontend
+
+React.js
+
+Material-UI
+
 CSS
-React-Router-Dom
-Redux
-Backend:
 
-Node JS
-Express Js
+React Router DOM
+
+Redux
+
+Backend
+
+Node.js
+
+Express.js
+
 MongoDB
-Rest API
+
+REST API
+
 JWT Authentication
-🚀 Features :
-SignUp/Register Page.
-Login Page.
-Share New Post.
-Posts Include Text(Caption).
-Like/Unlike Posts.
-Suggested Users.
-Follow/Unfollow Users.
-View No Of Followers/Following Of User.
-View Other Posts By Follow Users And React On That Posts.
-Update/Edit Profile Page User Data.
+
+🚀 Key Features
+
+User authentication (Sign-up & Login) with JWT
+
+Create, view, like/unlike posts (with captions)
+
+Suggested users list
+
+Follow/unfollow functionality
+
+View followers & following counts
+
+See posts from users you follow and react to them
+
+Edit/update profile details
 SignUp/Register Page :
 <img width="1216" height="687" alt="image" src="https://github.com/user-attachments/assets/cd55fdc6-2c68-444e-ba98-45a6855f026a" />
 Login Page :
@@ -35,15 +53,44 @@ Home Page :
 User Profile Page :
 <img width="1223" height="686" alt="image" src="https://github.com/user-attachments/assets/d17ef060-dc37-4858-b0b8-f32247e7392f" />
 <img width="1244" height="712" alt="image" src="https://github.com/user-attachments/assets/c7e76b25-391b-4dfb-a822-af3e68c5474e" />
-What you need to run this application:
-Install NodeJs
-MongoDB or MongoDB Atlas
-Install Vs Code
-How to run this application
-Make sure MongoDB is running on your system or online.
-Clone this repository
-Open command line in the cloned folder,
-To install dependencies for frontend , run npm install in /client folder.
-To run frontend type command npm start in /client folder.
-To install dependencies for backend, run npm install in /server folder.
-To run backend type command nodemon in server folder.
+⚙️ Installation & Setup
+
+Requirements
+
+Node.js
+
+MongoDB
+ (local or Atlas)
+
+VS Code (or any editor)
+
+Steps
+
+Make sure MongoDB is running (local or Atlas).
+
+Clone the repository.
+
+Backend:
+
+cd server
+npm install
+nodemon
+
+
+Frontend:
+
+cd client
+npm install
+npm start
+
+📄 About
+
+A scalable, responsive social-media web app where users can:
+✔ Share and react to posts
+✔ Comment and interact with others
+✔ Follow/unfollow users
+✔ Manage profiles
+
+🏷️ Topics
+
+mern · reactjs · nodejs · expressjs · mongodb · redux · rest-api · jwt-authentication · material-ui · crud-operation
